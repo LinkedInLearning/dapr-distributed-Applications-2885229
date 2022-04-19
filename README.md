@@ -1,44 +1,20 @@
-# [DE-Kursname hier eintragen]
+# Verteilte Anwendungen mit Dapr – Grundlagen
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Verteilte Anwendungen mit Dapr – Grundlagen`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 ![COURSENAME][lil-thumbnail-url] 
 
-[COURSEDESCRIPTION]
+Microservice-Architekturen sind zum Standard für die Erstellung nativer Cloud-Anwendungen geworden – doch erfordert dieser Ansatz ein sehr gutes Verständnis von verteilten Systemen. Die Distributed Application Runtime (Dapr) ist eine portable und ereignisgesteuerte Laufzeitumgebung, die sowohl im Cloud- als auch im Edge-Umfeld genutzt werden kann und die Entwicklung, das Überwachen und den Betrieb verteilter Systeme vereinfacht. Der erfahrene Cloud Solution Architect Ricardo Niepel bringt Ihnen in diesem Videokurs das grundsätzliche Konzept sowie die einzelnen Bausteine von Dapr nahe: Dazu stellt er Ihnen jeweils die Funktionsweise eines Bausteins ausführlich vor und erläutert ein passendes Quellcode-Beispiel. Mit Dapr soll jeder Entwickler in die Lage versetzt werden, Microservice-Anwendungen zu erstellen.
 
 ## Anleitung
 
-Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
-
-## Branches
-
-Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonvention lautet `Kapitel#_Video#`. Der Branch `02_03` beinhaltet zum Beispiel die Übungen für das dritte Video im zweiten Kapitel. 
-Einige Branches haben einen Anfangsstatus (`b`) für "beginning" und einen Endstatus (`e`). Der Branch mit dem `e` am Ende beinhaltet in diesem Fall stets den Code der am Ende des Videos zu sehen ist. Der `master` Branch beinhaltet den initialen Quellcode und wird nicht für die Übungen innerhalb des Kurses genutzt.
-
-Wenn Sie von einem Branch nach Änderungen zum nächsten Branch wechseln, erhalten Sie möglicherweise die folgende Meldung:
-
-```
-error: Your local changes to the following files would be overwritten by checkout:        [files]
-Please commit your changes or stash them before you switch branches.
-Aborting
-```
-
-Dieses Problem lösen Sie wie folgt:
-    Add changes to git using this command: git add .
-    Commit changes using this command: git commit -m "some message"
-
-## Installation
-
-1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
-2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
+Dieses Repository verlinkt direkt auf das originale Repository von Dapr, das sie hierüber erreichen: https://github.com/dapr/quickstarts
 
 ### Autor
 
-**[Name hier eintragen]**
+**Ricardo Niepel**
 
-_[Berufsbezeichnung hier eintragen]_
+_Cloud Solution Architect_
 
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
 
